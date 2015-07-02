@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <canvas id="colorpick" width="150" height="150"></canvas>
+    <div class="range">
+        <span>R:</span>
+        <input type="range" min="0" max="255" value="0" id="r">
+    </div>
+    <div class="range">
+        <span>G:</span>
+        <input type="range" min="0" max="255" value="0" id="g">
+    </div>
+    <div class="range">
+        <span>B:</span>
+        <input type="range" min="0" max="255" value="0" id="b">
+    </div>
+    <div class="size">
+        Size:
+        <input type="number" max="20" min="1" value="1" id="size">
+    </div>
+    <canvas id="drawable" width="300" height="300"></canvas>
+    <input type="button" value="Clear" id="clear">
+    <input type="button" value="Rabbit" id="rabbit">
+    </div>
+</body>
+
+</html>
